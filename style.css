@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap');
+
+body {
+  background-color: #0f172a; /* nền đen xanh hiện đại */
+  color: #f1f5f9; /* chữ sáng, không xám */
+  font-family: 'Inter', sans-serif;
+  margin: 0;
+  padding: 40px 20px;
+  line-height: 1.7;
+}
+
+.container {
+  max-width: 880px;
+  margin: auto;
+  background-color: #1e293b; /* nền card tối nhưng nổi bật */
+  padding: 40px;
+  border-radius: 12px;
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.4);
+}
+
+h1, h2 {
+  color: #38bdf8; /* xanh dương nhạt nổi bật */
+  margin-bottom: 24px;
+}
+
+p, li {
+  color: #e2e8f0; /* xám nhạt – rõ ràng */
+  font-size: 1.1rem;
+  margin-bottom: 16px;
+}
+
+a {
+  color: #60a5fa; /* liên kết xanh dương */
+  text-decoration: none;
+  font-weight: 600;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: #93c5fd;
+}
+
+.button {
+  display: inline-block;
+  margin-top: 20px;
+  background-color: #2563eb;
+  color: white;
+  padding: 12px 24px;
+  border-radius: 8px;
+  text-decoration: none;
+  transition: background 0.3s ease;
+}
+
+.button:hover {
+  background-color: #1e40af;
+}
+
+ul {
+  padding-left: 20px;
+}
+
+@media screen and (max-width: 600px) {
+  .container {
+    padding: 20px;
+  }
+
+  h1 {
+    font-size: 1.8rem;
+  }
+}
+add style.css
